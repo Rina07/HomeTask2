@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Inquiry Form</title>
+</head>
+
+<body>
+    <h1>Friday Beer Party</h1>
+    <p>This Friday we are going to meet for our traditional beer:)</p>
+    <p style="color: red">*Required</p>
+    <h2>Will you stay for the party and what would you prefer?*</h2>
+    <form method="POST" action="https://formspree.io/iraborniak@gmail.com">
+        <h3>I prefer:</h3>
+        <label for="beer">Beer</label>
+        <input type="radio" name="beer" id="beer" value="Beer">
+        <br>
+        <br>
+        <label for="wine">Wine</label>
+        <input type="radio" name="wine" id="wine" value="Wine">
+        <br>
+        <br>
+        <label for="non-alcoholic-beer">Non-alcoholic beer</label>
+        <input type="radio" name="non-alcoholic-beer" id="non-alcoholic-beer" value="Non-alcoholic beer">
+        <br>
+        <br>
+        <label for="another-drink">Another drink</label>
+        <input type="text" name="another-drink" id="another-drink" placeholder="Your choice">
+        <br>
+        <br>
+        <label for="won't-stay">Won't stay</label>
+        <input type="radio" name="won't-stay" id="won't-stay" value="I won't stay">
+        <br>
+        <br>
+        <input type="submit" value="Send">
+        <input type="reset" value="Reset">
+    </form>
+</body>
+
+</html>
